@@ -1,0 +1,24 @@
+{
+  "name": "mapcat-web-server",
+  "version": "1.0.0",
+  "description": "Web Server for Mapcat",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "deploy": "gcloud app deploy",
+    "start": "node app.js",
+    "lint": "samples lint",
+    "pretest": "npm run lint",
+    "system-test": "samples test app",
+    "test": "npm run system-test",
+    "e2e-test": "samples test deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "@google-cloud/nodejs-repo-tools": "1.3.1"
+  }
+}
