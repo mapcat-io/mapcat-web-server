@@ -3,7 +3,7 @@
 *.css.map
 
 # Misc
-public
+.DS_Store
 
 # Logs
 logs

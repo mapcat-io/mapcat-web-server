@@ -6,7 +6,7 @@ const router = express.Router();
 // [START hello_world]
 router.get('/', (req, res) => {
   res.render('index', {
-    title: 'Index Page'
+    title: 'Mapcat - Find whatever you need, wherever you are.'
   });
 });
 // [END hello_world]
